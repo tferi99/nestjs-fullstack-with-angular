@@ -54,6 +54,14 @@
                   "maximumError": "5mb"
                 }
               ]
+            },
+            "development": {
+              "buildOptimizer": false,
+              "optimization": false,
+              "vendorChunk": true,
+              "extractLicenses": false,
+              "sourceMap": true,
+              "namedChunks": true
             }
           }
         },
@@ -65,6 +73,9 @@
           "configurations": {
             "production": {
               "browserTarget": "todo-client:build:production"
+            },
+            "development": {
+              "browserTarget": "todo-client:build:development"
             }
           }
         },
